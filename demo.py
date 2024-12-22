@@ -65,7 +65,6 @@ class pillar:
 class Game:
     def __init__(self):
         #initialising game dimensions
-        pg.display.set_caption('Flappy Bird NINJA')
         self.score=0
         self.notcrash=True
         self.t=False
